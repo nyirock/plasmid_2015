@@ -10,7 +10,7 @@ Program outputs the occurence of the most frequent DNA pattern of the desired le
 
 ##Usage
 Script requires python2 interpreter to be installed and added to the system PATH.
-###Example of using the file with default parameters
+###Example of using the script with default parameters
 **$python plasmid_2015_main.py**
 
 Using default inputfile: input_DNA.txt
