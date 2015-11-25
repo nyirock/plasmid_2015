@@ -16,8 +16,9 @@ python plasmid_2015_main.py
 input_DNA.txt is used as input DNA sequence, length of the motif is equal to 10-bp
 ###Getting help
 python plasmid_2015_main.py -h
+
 Usage: test.py -i <inputfile> -k <k-mer length>
 ###Custom parameters
 plasmid_2015_main.py -i input_DNA_pCMMB549_rep_region_140_180_kb.txt -k 14
 ###Note
-Operating large DNA datasets requires more time and computing resourses. For training purposes 64 bp file representinf pOZ172 OriV in the file input_DNA_pOZ172_rep_reigion.txt could be used.
+Operating large DNA datasets requires more time and computing resourses. For training purposes could be used a file  containing 64-bp sequence OriV sequence of  pOZ172.
