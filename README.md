@@ -1,15 +1,15 @@
 # plasmid_2015
 ##Structure
-Main script plasmid_2015_main.py two other files containing its functions - frequent_patterns.py and tcount_fn.py to be placed in the same directory to provide the functionality. Program also requires input DNA file to be in the same directory as the script files.
+Main script **plasmid_2015_main.py** requires two other files containing its functions - **frequent_patterns.py** and **count_fn.py** to be placed in the same directory to provide the functionality. Program also requires input DNA file to be in the same directory as the script files. All the required files are provided in the folder of the repository.
 
 ##Input
-Program expects input DNA to be stored in the file input_DNA.txt as a default parameter. Script only accepts plain letters of DNA alphabet: A(a), T(t), G(g), C(c)
+Program expects input DNA to be stored in the file **input_DNA.txt* as a default parameter. Script only accepts plain letters of DNA alphabet: A(a), T(t), G(g), C(c)
 
 ##Output
 Program outputs the occurence of the most frequent DNA pattern of the desired lenth and its sequence
 
 ##Usage
-
+Script requires python2 interpreter to be installed and added to the system PATH.
 ###Example of using the file with default parameters
 **$python plasmid_2015_main.py**
 
