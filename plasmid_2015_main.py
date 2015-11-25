@@ -59,7 +59,7 @@ dataset_rc="GAACCTCAGCCGCGTAGGTCTTTATTTCCGATTCGAACCACTCACGACTCGCCAGTATTTGAGTCCGG
 
 #fout.close()
 
-frequent_patterns(dataset,10)
+frequent_patterns(dataset,5)
 
 
 
