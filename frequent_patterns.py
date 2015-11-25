@@ -48,8 +48,10 @@ def frequent_patterns(string, size):
 
 #    for i in range(len(pattern)):
 #        print str(pattern[i])+':'+str(count[i])
-
-    print FrequentPatterns
+	#print FrequentPatterns
+	
+    
+	return FrequentPatterns
 
 
 
