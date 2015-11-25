@@ -19,10 +19,14 @@ Using default k-mer length of 10 bp
 
 We are working with the dataset of 40001 characters....
 
+Single most frequent pattern found
+
+10 bp motif ACCGGAATTT occurs 7 times in the input DNA sequence
+
 ###Getting help
 **$python plasmid_2015_main.py -h**
 
-Usage: test.py -i <inputfile> -k <k-mer length>
+Usage: plasmid_2015_main.py -i <inputfile> -k <k-mer length>
 ###Custom parameters
 **$python plasmid_2015_main.py -i input_DNA_pCMMB549_rep_region_140_180_kb.txt -k 12**
 
