@@ -80,6 +80,8 @@ def main(argv):
 		print '\n'+'No single most frequent pattern found'+'\n'
 		for item in results:
 			print str(k_mer_ln)+" bp motif "+item+" occurs "+str(results[item])+" times in the input DNA sequence"
+	elif max(results.values())==1:
+		"No motif occurs more than once. Please try changing the input parameters"
 	else:
 		print "No results found. Please try changing the input parameters"
 		
