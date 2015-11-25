@@ -26,7 +26,7 @@ Single most frequent pattern found
 ###Getting help
 **$python plasmid_2015_main.py -h**
 
-Usage: plasmid_2015_main.py -i <inputfile> -k <k-mer length>
+Usage: plasmid_2015_main.py -i /<inputfile/> -k /<k-mer length/>
 ###Custom parameters
 **$python plasmid_2015_main.py -i input_DNA_pCMMB549_rep_region_140_180_kb.txt -k 12**
 
