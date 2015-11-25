@@ -20,9 +20,9 @@
 import re
 from count_fn import count_fn
 from frequent_patterns import frequent_patterns
-import rpy2
-import rpy2.robjects as ro
-import time
+#import rpy2
+#import rpy2.robjects as ro
+#import time
 
 
 import time, os
@@ -59,7 +59,7 @@ dataset_rc="GAACCTCAGCCGCGTAGGTCTTTATTTCCGATTCGAACCACTCACGACTCGCCAGTATTTGAGTCCGG
 
 #fout.close()
 
-frequent_patterns(dataset,5)
+frequent_patterns(dataset,8)
 
 
 
