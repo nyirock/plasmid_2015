@@ -56,7 +56,7 @@ dataset_cln=dataset
 dataset_cln=dataset_cln.strip().upper()
 
 dataset_lst=dataset_cln.split('\n')
-dataset_cln2=''.join(dataset_lst)
+dataset_cln=''.join(dataset_lst)
 
 # print dataset+'#####'
 # print dataset_cln+'#####'
@@ -75,7 +75,7 @@ dataset_cln2=''.join(dataset_lst)
 #print dataset_cln==dataset_cln2
 
 
-frequent_patterns(dataset_cln2,14)
+frequent_patterns(dataset_cln,14)
 # print '**************************'
 # frequent_patterns(dataset_cln,10)
 # print "*********************"
