@@ -75,7 +75,7 @@ dataset_cln=''.join(dataset_lst)
 #print dataset_cln==dataset_cln2
 
 
-frequent_patterns(dataset_cln,14)
+frequent_patterns(dataset_cln,10)
 # print '**************************'
 # frequent_patterns(dataset_cln,10)
 # print "*********************"
