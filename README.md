@@ -13,15 +13,13 @@ Script requires python2 interpreter to be installed and added to the system PATH
 ###Example of using the script with default parameters
 **$python plasmid_2015_main.py**
 
-Using default inputfile: input_DNA.txt
+Using default inputfile: input_DNA.txt  
+Using default k-mer length of 10 bp  
+We are working with the dataset of 40001 characters....  
 
-Using default k-mer length of 10 bp
+Single most frequent pattern found  
 
-We are working with the dataset of 40001 characters....
-
-Single most frequent pattern found
-
-10 bp motif ACCGGAATTT occurs 7 times in the input DNA sequence
+10 bp motif ACCGGAATTT occurs 7 times in the input DNA sequence  
 
 ###Getting help
 **$python plasmid_2015_main.py -h**
@@ -30,17 +28,14 @@ Usage: plasmid_2015_main.py -i \<inputfile\> -k \<k-mer length\>
 ###Custom parameters
 **$python plasmid_2015_main.py -i input_DNA_pCMMB549_rep_region_140_180_kb.txt -k 12**
 
-Using DNA inputfile: input_DNA_pCMMB549_rep_region_140_180_kb.txt
-
-Length of k-mer is 12 bp
-
-We are working with the dataset of 40001 characters....
+Using DNA inputfile: input_DNA_pCMMB549_rep_region_140_180_kb.txt  
+Length of k-mer is 12 bp  
+We are working with the dataset of 40001 characters....  
 
 No single most frequent pattern found
 
-12 bp motif GGACCGGAATTT occurs 3 times in the input DNA sequence
-
-12 bp motif CGCGCTCGAGGA occurs 3 times in the input DNA sequence
+12 bp motif GGACCGGAATTT occurs 3 times in the input DNA sequence  
+12 bp motif CGCGCTCGAGGA occurs 3 times in the input DNA sequence  
 
 ###Note
 Operating large DNA datasets requires more time and computing resources. A file containing containing short 64-bp OriV sequence of  pOZ172 **input_DNA_pOZ172_rep_reigion.txt** could be used for testing the software.
