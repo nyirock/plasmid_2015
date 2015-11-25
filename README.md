@@ -43,4 +43,4 @@ No single most frequent pattern found
 12 bp motif CGCGCTCGAGGA occurs 3 times in the input DNA sequence
 
 ###Note
-Operating large DNA datasets requires more time and computing resourses. For training purposes could be used a file  containing 64-bp sequence OriV sequence of  pOZ172.
+Operating large DNA datasets requires more time and computing resources. For training purposes could be used a file  containing 64-bp sequence OriV sequence of  pOZ172.
