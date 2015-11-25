@@ -45,13 +45,9 @@ def frequent_patterns(string, size):
     for i in range(len(string)-size):
         if count[i]>=maxCount:
             FrequentPatterns[pattern[i]]=count[i]
-
 #    for i in range(len(pattern)):
 #        print str(pattern[i])+':'+str(count[i])
-	#print FrequentPatterns
-	
-    
-	return FrequentPatterns
-
+    #print FrequentPatterns
+    return FrequentPatterns
 
 
