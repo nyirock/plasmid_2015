@@ -1,13 +1,19 @@
+#running in very high priority
+#sudo nice --19 pyth on main.py 
+
+
 from addDimension import addDimension
 from out_text import out_text
 
 
+file_name="input_DNA_pCMMB549_entire.txt"
+hand=open(file_name)
+hand=open(file_name)
+text=hand.read().strip()
+hand.close()
 
-text=out_text()
-
-
-
-k=10
+k=12
+#k=13 didn't work...
 
 
 #print type(p),type(text)
